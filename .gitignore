@@ -1,0 +1,22 @@
+# Ignore files without extensions (usually binaries), but not folders
+*
+!*.*
+!*/
+
+# OSX files
+.DS_Store
+# Executables 
+*.exe
+*.*~
+# Local VS Code settings
+.vscode
+# Sample adx data
+*.pb
+
+# idea files
+.idea
+
+# Build folders
+.artifacts
+
+!Dockerfile
